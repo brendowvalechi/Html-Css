@@ -49,4 +49,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        theme: jekyll-theme-time-machine
+        remote_theme: pages-themes/time-machine@v0.2.0
